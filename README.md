@@ -1,6 +1,2 @@
-# dsintensive
-Capstone project, pages and projects for Data Science Intensive Course 
-
-This line is a test.
-
-This is the second line
+# Data Science (intensive course)
+Notes, pages and data for [Data Science Intensive course](https://www.springboard.com/workshops/data-science-intensive/learn/#/curriculum/1361)
