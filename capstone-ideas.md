@@ -14,6 +14,6 @@ We can find, at least, three global university rankings with different methodolo
 ## #2 Capstone project proposal
 idea 2
 
-## #3 Capstone project proposa
+## #3 Capstone project proposal
 idea 3
 
