@@ -1,5 +1,18 @@
 # Summary of weekly activities
 
+## Week Nov, 2nd - 12th 
+### On going/done
+* **Curriculum**: Just about to start section 6/10 (I skiped some exercices from sections 4 e 5)
+* Course "Manipulating Dataframes with Pandas" (DataCamp): 70% done
+* **Capstone Project (Filght Delay)**: 
+  - Cleaning raw/original CSV files: I am cleaning raw/original CSV files: from **May, 2014 to September, 2017**. Due to a problem on the system that keep these data, there is no flight records available for june and july, 2014.
+  - For the basic cleannig process I am using [Google Spreadsheets](https://docs.google.com/spreadsheets/) and [Google Dataprep](https://clouddataprep.com/datasets)
+  - For **weather conditions** at airports, I will get the raw data from [Weahter Underground/historical data](https://www.wunderground.com/history/). Ex.: [Weather historical data (2016) in the São Paulo International Airport](https://www.wunderground.com/history/airport/SBGR/2016/1/1/CustomHistory.html?dayend=31&monthend=12&yearend=2016&req_city=&req_state=&req_statename=&reqdb.zip=&reqdb.magic=&reqdb.wmo=)
+
+### TO DO List (week Nov, 13th - 16th)
+* [ ] **Curriculum**: I plan to finish all the remaining lectures/exercices from sections 4 and 5 
+* [ ] **Capstone Project (Filght Delay)**: I plan to finish the cleanning process for both local departures and weather historical data (at local airports)
+  
 ## Week Oct, 27th - Nov, 2nd 
 
 ### Some tasks
@@ -12,9 +25,9 @@
 * A quick investigation on **Google Cloud Dataprep**: Is a suitable tool to clean data? Link: [https://cloud.google.com/dataprep/](https://cloud.google.com/dataprep/)
 
 ### TO DO List (week Nov, 3rd - 9th)
-* To complete **"Python Data Science Toolbox (Part 1)"**. Link: [https://www.datacamp.com/courses/python-data-science-toolbox-part-1](https://www.datacamp.com/courses/python-data-science-toolbox-part-1)
-* Springboard **Data Science Intensive** course: I intend to complete sections **"4 - Data Wrangling"** e **"5 - Data Storytelling**
-* To do some tests using **Seaborn**: [https://jakevdp.github.io/PythonDataScienceHandbook/04.14-visualization-with-seaborn.html](https://jakevdp.github.io/PythonDataScienceHandbook/04.14-visualization-with-seaborn.html)
+* [x] To complete **"Python Data Science Toolbox (Part 1)"**. Link: [https://www.datacamp.com/courses/python-data-science-toolbox-part-1](https://www.datacamp.com/courses/python-data-science-toolbox-part-1)
+* [ ] Springboard **Data Science Intensive** course: I intend to complete sections **"4 - Data Wrangling"** e **"5 - Data Storytelling**
+* [x] To do some tests using **Seaborn**: [https://jakevdp.github.io/PythonDataScienceHandbook/04.14-visualization-with-seaborn.html](https://jakevdp.github.io/PythonDataScienceHandbook/04.14-visualization-with-seaborn.html)
 
 ---
 ## Important stuff: when you have time
