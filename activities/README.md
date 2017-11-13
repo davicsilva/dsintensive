@@ -2,16 +2,16 @@
 
 ## Week Nov, 2nd - 12th 
 ### On going/done
-* **Curriculum**: Just about to start section 6/10 (I skiped some exercices from sections 4 e 5)
-* Course "Manipulating Dataframes with Pandas" (DataCamp): 70% done
+* **Curriculum**: Just about to start section 6/10 (I bypassed some exercices from sections 4 e 5)
+* Course "Manipulating Dataframes with Pandas" (DataCamp): 70% completed
 * **Capstone Project (Filght Delay)**: 
   - Dataset with **flight departures records**: cleaning raw/original CSV files from **May, 2014 to September, 2017**. Due to a problem on the system that keep these data (federal government), there is no flight records available for june and july, 2014.
-  - Dataset with **weather conditions** at airports: I will get the raw data from [Weahter Underground/historical data](https://www.wunderground.com/history/). Ex.: [Weather historical data (2016) in the São Paulo International Airport](https://www.wunderground.com/history/airport/SBGR/2016/1/1/CustomHistory.html?dayend=31&monthend=12&yearend=2016&req_city=&req_state=&req_statename=&reqdb.zip=&reqdb.magic=&reqdb.wmo=)
+  - Dataset with **weather conditions** at airports: I will get the raw data from [Weahter Underground/historical data](https://www.wunderground.com/history/). Ex.: [Weather historical data (2016) at Campinas/Brazil International Airport](https://www.wunderground.com/history/airport/SBKP/2016/1/1/CustomHistory.html?dayend=31&monthend=12&yearend=2016&req_city=&req_state=&req_statename=&reqdb.zip=&reqdb.magic=&reqdb.wmo=). This data at a Google Spreadsheet - [weatherAtCampinasAirport-2016](https://docs.google.com/spreadsheets/d/1nUu6nfqJOYB0ECULsN0r7BfWjKyWUiJeQ2nnyT0V1v8/edit?usp=sharing)
   - For the basic cleannig process on these datasets, I am using [Google Spreadsheets](https://docs.google.com/spreadsheets/) and [Google Dataprep](https://clouddataprep.com/datasets)
 
 ### TO DO List (week Nov, 13th - 16th)
-* [ ] **Curriculum**: I plan to finish all the remaining lectures/exercices from sections 4 and 5 
-* [ ] **Capstone Project (Filght Delay)**: I plan to finish the cleanning process for both local departures and weather historical data (at local airports)
+* [ ] **Curriculum** -  I plan to finish all the remaining lectures/exercices from sections 4 and 5 
+* [ ] **Capstone Project** (local flight delays) - I plan to finish the cleanning process for both datasets: local departures and weather historical data (at local airports).
   
 ## Week Oct, 27th - Nov, 2nd 
 
