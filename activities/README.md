@@ -6,7 +6,14 @@
 - **Flight**: sample dataset with all flights during the year of 2017 (january to september)
 - **Local public airports***: dataset with all 589 public airports in Brazil
 - **Delay codes**: dataset with the two-letters codes used by the aircraft crew to justify some delay on the flight
-- **flighDelayPrepData**: a [**notebook**]() where I started to deal with these datasets and prepare the data
+- **flighDelayPrepData**: a [**notebook**](https://github.com/davicsilva/dsintensive/blob/master/notebooks/flightDelayPrepData.ipynb) where I started to deal with these datasets and prepare the data
+
+**Next steps**:
+1. Prepare sample datasets with historical data of weather (starting with 2017, January to September). These is one example of historical data (weather): [https://docs.google.com/spreadsheets/d/1nUu6nfqJOYB0ECULsN0r7BfWjKyWUiJeQ2nnyT0V1v8/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1nUu6nfqJOYB0ECULsN0r7BfWjKyWUiJeQ2nnyT0V1v8/edit?usp=sharing)
+2. Try to find some correlation between weather events (rain, storms etc.) and flights with delays
+3. Start making some Data Visualization: #delays/airport, #delays/month, airports with big %flight-with-delays
+
+* **Curriculum**: send the 
 
 ## Week Nov, 2nd - 12th 
 ### On going/done
