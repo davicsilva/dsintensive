@@ -1,0 +1,73 @@
+delaycode; delayAB; delayWeather; delayShortDesc; delayLongDesc
+AD; B; 0; airport B with problem; Destino: restrições no aeroporto de destino. Quando utilizar: aeroporto e/ou pista fechada devido à obstrução, falta de pessoal, redução de barulho, voos especiais
+AE; B; 0; airport B with problem; Descrição: restrições no fluxo de tráfego aéreo no aeródromo de destino. Quando utilizar: pista de pouso e decolagem fechada devido a obstruções falta de pessoal, restrições por ruídos. 
+AF; A; 0; airport A with restriction; Descrição: facilidades aeroportuárias. Quando utilizar: estacionamentos, congestionamento na rampa, iluminação, estrutura, limitações no gate etc. 
+AG; A; 0; passangers or crew with health/imigration problems; Descrição: imigração, vistoria aduaneira, sanitária/saúde. Quando utilizar: passageiros, tripulação. 
+AM; A; 1; TBD; Descrição: restrições no aeroporto de partida. Quando utilizar: incluem serviços de tráfego aéreo, partida e pushback, aeroporto e/ou pista fechada devido às obstruções ou condições climáticas (restrições por conta de condições climáticas somente nos casos de administração do fluxo de tráfego aéreo), falta de pessoal, voos especiais.
+AS; A; 0; TBD; Descrição: segurança (contra atos ilícitos) mandatória/obrigatória. Quando utilizar: passageiros, bagagem, tripulação etc. 
+AT; A; 0; TBD; Descrição: restrições no fluxo de tráfego aéreo em rota devido à exigências/capacidade do controle de tráfego aéreo. Quando utilizar: problemas de capacidade/demanda.
+AW; A; 1; TBD; Descrição: restrições no fluxo de tráfego aéreo no aeródromo de destino por condições climáticas. Quando utilizar: restrições no fluxo no aeródromo de destino por condições climáticas. 
+AX; A; 0; TBD; Descrição: restrições no fluxo de tráfego aéreo em rota devido à pessoal/equipamento do controle de tráfego aéreo. Quando utilizar: capacidade reduzida causada por falta de funcionários, falha de equipamentos, exercício militar ou demanda extraordinária. 
+CA; A; 0; TBD; Descrição: atraso na liberação – correios. Quando utilizar: liberação do correio após o prazo previsto. 
+CC; A; 0; TBD; Descrição: atraso na liberação. Quando utilizar: liberação da carga após o prazo previsto. 
+CD; A; 0; TBD; Descrição: documentação. Quando utilizar: documentação atrasada ou incorreta para a carga a ser posta no avião. 
+CE; A; 0; TBD; Descrição: documentação e embalagem – correios. Quando utilizar: documentação incompleta e/ou incorreta. 
+CI; A; 0; TBD; Descrição: embalagem inadequada. Quando utilizar: necessidade de embalar ou etiquetar a carga novamente. 
+CO; A; 0; TBD; Descrição: oversales. Quando utilizar: excesso de carga, ultrapassando a capacidade (volume ou peso) de carregamento, resultando em recarregamento ou retirada de carga. 
+CL; A; 0; TBD; Descrição: carregamento atrasado correios. Quando utilizar: atraso na entrega de correio no aeroporto/aeronave. 
+CP; A; 0; TBD; Descrição: carregamento atrasado. Quando utilizar: atraso na entrega da carga no aeroporto/aeronave.
+DF; A; 1; TBD; Descrição: danos durante operações em voo. Quando utilizar: colisão com pássaro, relâmpago, turbulência, aterrissagem violenta ou com sobrepeso, colisão durante o taxiamento. 
+DG; A; 1; TBD; Descrição: danos durante operações em solo. Quando utilizar: colisões (exceto em taxiamento), danos ao realizar carregamento/descarregamento ou reboque, contaminação, condições climáticas extremas. 
+EC; A; 0; TBD; Descrição: preparação da documentação de carga - sistema. Quando utilizar: falha no sistema de controle de carregamento da carga e/ou na documentação. 
+ED; A; 0; TBD; Descrição: controle de partida - sistema. Quando utilizar: falha nos sistemas automatizados, incluindo check-in, sistemas de controle de carregamento e de peso e balanceamento. 
+EF; A; 0; TBD; Descrição: planos de voo - sistema. Quando utilizar: falha no sistema automatizado de plano de voo. 
+FA; A; 0; TBD; Descrição: pedidos especiais ou por equívoco da tripulação de cabine. Quando utilizar: pedidos especiais não englobados na rotina operacional. 
+FB; A; 0; TBD; Descrição: pedido do comandante para verificações de segurança. Quando utilizar: pedidos extraordinários além dos requisitos mandatórios. 
+FC; A; 0; TBD; Descrição: falta de tripulação de cabine. Quando utilizar: problemas de saúde, limitações de horas de voos/escala, documentação etc. 
+FF; A; 0; TBD; Descrição: exigências operacionais. Quando utilizar: alteração tardia de combustível ou de carga paga. 
+FL; A; 0; TBD; Descrição: atraso no embarque da tripulação de cabine ou procedimentos de partida. Quando utilizar: atraso da tripulação de cabine exceto a de reserva, atraso nos checks de cabine. 
+FP; A; 0; TBD; Descrição: plano de voo. Quando utilizar: conclusão atrasada ou mudança do plano de voo. 
+FR; A; 0; TBD; Descrição: pedido especial da tripulação técnica. Quando utilizar: pedidos especiais não englobados na rotina operacional. 
+FS; A; 0; TBD; Descrição: falta de tripulação técnica. Quando utilizar: problemas de saúde, limitações de horas de voos/escala, documentação etc. 
+FT; A; 0; TBD; Descrição: atraso no embarque da tripulação ou procedimentos de partida. Quando utilizar: embarque atrasado da tripulação técnica. 
+GB; A; 0; TBD; Descrição: catering. Quando utilizar: atraso e/ou entrega incompleta, atraso no carregamento. 
+GC; A; 0; TBD; Descrição: limpeza de aeronave. Quando utilizar: atraso na limpeza da aeronave. 
+GD; A; 0; TBD; Descrição: documentação da aeronave atrasada ou incorreta. Quando utilizar: documentação de peso e massa incorreta ou atrasada, documento geral, reclamação de passageiros. 
+GE; A; 0; TBD; Descrição: equipamento de carregamento. Quando utilizar: falta e/ou quebra de equipamento, falta de funcionários para a operação do equipamento. 
+GF; A; 0; TBD; Descrição: abastecimento/desabastecimento. Quando utilizar: atraso na entrega do combustível, exclui pedidos atrasados. 
+GL; A; 0; TBD; Descrição: carregamento e descarregamento. Quando utilizar: grandes volumes, carregamento especial, falta de funcionários para o carregamento. 
+GS; A; 0; TBD; Descrição: equipamentos de manutenção. Quando utilizar: falta e/ou quebra de equipamento, falta de funcionários para a operação do equipamento. 
+GT; A; 0; TBD; Descrição: equipamento técnico. Quando utilizar: falta e/ou quebra de equipamento, falta de funcionários para a operação do equipamento, incluí gerador, air-start, pushback tug, de-icing. 
+GU; A; 0; TBD; Descrição: container. Quando utilizar: falta e/ou inoperação de contêineres ou pallets. 
+MI; A; 0; TBD; Descrição: ação sindical na própria companhia aérea. Quando utilizar: ação sindical na própria companhia aérea. 
+MO; Descrição: ação sindical fora da companhia aérea. Quando utilizar: ação sindical fora da companhia aérea (exceto serviços de controle de tráfego aéreo). 
+MX; A; 0; TBD; Descrição: diversos. Quando utilizar: inexistência de código apropriado. Fundamentar razões em texto livre. 
+OA; A; 0; TBD; Descrição: não há posição/finger disponível para a aeronave. Quando utilizar: demora da liberação devido à atividade da empresa aérea. 
+PB; A; 0; TBD; Descrição: procedimentos com as bagagens. Quando utilizar: bagagens distribuídas incorretamente ou tardiamente. 
+PC; A; 0; TBD; Descrição: atraso ou incorreção de pedido feito ao fornecedor. Quando utilizar: pedido de catering. 
+PD; A; 0; TBD; Descrição: check-in atrasado – passageiro. Quando utilizar: check-in reaberto para passageiros atrasados. 
+PE; A; 0; TBD; Descrição: erro de check-in. Quando utilizar: erros relacionados aos passageiros ou bagagens. 
+PH; A; 0; TBD; Descrição: embarque. Quando utilizar: discrepâncias na chamada de passageiros, falta de checagem de passageiros. 
+PL; A; 0; TBD; Descrição: check-in atrasado. Quando utilizar: check-in não realizado à tempo do fechamento do voo. 
+PO; A; 0; overbooking; Descrição: overbooking. Quando utilizar: erros de registros – não resolvidos no check-in. 
+PS; A; 0; TBD; Descrição: publicidade comercial/comodidade do passageiro. Quando utilizar: decisão local de atrasar o voo para VIP's ou imprensa, atraso devido a embarque de passageiros com necessidades especiais. 
+RA; A; 0; TBD; Descrição: revezamento de aeronave. Quando utilizar: chegada atrasada da aeronave de outro voo ou de uma localização anterior. 
+RC; A; 0; connections - delay; Descrição: revezamento da tripulação técnica. Quando utilizar: tripulação à espera de outro voo. 
+RL; A; 0; cargo - waiting for connection; Descrição: conexão de carga. Quando utilizar: à espera de carga de outro voo. 
+RO; A; 0; TBD; Descrição: controle operacional. Quando utilizar: mudança de rota, desvio, consolidação, mudança de aeronaves exceto por razões técnicas. 
+RS; A; 0; TBD; Descrição: revezamento da tripulação de cabine. Quando utilizar: tripulação à espera de outro voo. 
+RT; A; 0; TBD; Descrição: durante erro de check-in. Quando utilizar: erros de check-in com passageiros ou bagagens na origem. 
+SG; A; 0; TBD; Descrição: tempo em solo programado. Quando utilizar: atraso gerado devido a tempo em solo inferior ao necessário (turnaround). 
+TA; A; 0; TBD; Descrição: peças de reposição para AOG (Aircraft on Ground). Quando utilizar: aguardo de peças a serem enviados para outra base a fim de atender a aeronave em AOG. 
+TC; A; 0; change of aircraft due to technical problems; Descrição: mudanças na aeronave. Quando utilizar: por conta de razões técnicas, por exemplo, atraso técnico prolongado. 
+TD; A; 0; TBD; Descrição: defeitos técnicos. Quando utilizar: defeitos na aeronave, incluindo itens considerados pelo MEL (Minimum Equipment List). 
+TL; A; 0; spare aircraft not available; Descrição: aeronave de reserva. Quando utilizar: aeronave de reserva indisponível por razões técnicas. 
+TM; A; 0; TBD; Descrição: manutenção programada. Quando utilizar: liberação atrasada pela manutenção. 
+TN; A; 0; emergencial maintenance on the aircraft; Descrição: manutenção não-programada. Quando utilizar: verificações especiais e/ou reparos adicionais além da manutenção programada. 
+TS; A; 0; TBD; Descrição: manutenção e peças de reposição. Quando utilizar: falta de peças de reposição, falta de e/ou quebra de equipamentos especializados necessários para reparos. 
+WG; A; 1; TBD; Descrição: ground handling dificultado por condições climáticas adversas. Quando utilizar: ventos fortes, chuva forte, nevascas etc. 
+WI; A; 1; TBD; Descrição: degelo da aeronave. Quando utilizar: remoção do gelo e/ou neve, exclui falta ou não funcionamento de equipamentos. 
+WO; A; 0; TBD; Descrição: local de partida. Quando utilizar: abaixo dos limites operacionais. 
+WR; B; 0; TBD; Descrição: em rota ou local alternativo. Quando utilizar: abaixo dos limites operacionais. 
+WS; A; 1; TBD; Descrição: remoção de gelo, neve, água e areia do aeroporto. Quando utilizar: condições das pistas de pouso e decolagem e de taxiamento. 
+WT; B; 0; TBD; Descrição: local de destino. Quando utilizar: abaixo dos limites operacionais.

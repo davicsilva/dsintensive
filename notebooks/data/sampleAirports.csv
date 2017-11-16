@@ -1,0 +1,10 @@
+airport;airportname;city;state;latitude;longitude;altitude;operation
+SBBR;PRESIDENTE JUSCELINO KUBITSCHEK;BRASÍLIA;DF;15° 52' 16'' S;47° 55' 7'' W;1066 m;VFR Diurno/Noturno e IFR Diurno/Noturno
+SBGR;GUARULHOS - GOVERNADOR ANDRÉ FRANCO MONTORO;GUARULHOS;SP;23° 26' 8'' S;46° 28' 23'' W;750 m;VFR Diurno/Noturno e IFR Diurno/Noturno
+SBGL;AEROPORTO INTERNACIONAL DO RIO DE JANEIRO/GALEÃO – ANTONIO CARLOS JOBIM;RIO DE JANEIRO;RJ;22° 48' 36'' S;43° 15' 2'' W;9 m;VFR Diurno/Noturno e IFR Diurno/Noturno
+SBSP;CONGONHAS;SÃO PAULO;SP;23° 37' 34'' S;46° 39' 23'' W;802 m;VFR Diurno/Noturno e IFR Diurno/Noturno
+SBRJ;SANTOS DUMONT;RIO DE JANEIRO;RJ;22° 54' 36'' S;43° 9' 45'' W;3 m;VFR Diurno/Noturno e IFR Diurno/Noturno
+SBCF;TANCREDO NEVES;CONFINS;MG;19° 37' 26'' S;43° 58' 17'' W;827 m;VFR Diurno/Noturno e IFR Diurno/Noturno
+SBKP;VIRACOPOS;CAMPINAS;SP;23° 0' 25'' S;47° 8' 4'' W;661 m;VFR Diurno/Noturno e IFR Diurno/Noturno
+SBLO;GOVERNADOR JOSÉ RICHA;LONDRINA;PR;23° 19' 49'' S;51° 8' 12'' W;569 m;VFR Diurno/Noturno e IFR Diurno/Noturno
+SBCT;AFONSO PENA;CURITIBA;PR;25° 31' 54'' S;49° 10' 34'' W;911 m;VFR Diurno/Noturno e IFR Diurno/Noturno
