@@ -13,8 +13,8 @@
 2. Try to find some correlation between weather events (rain, storms etc.) and flights with delays
 3. Start making some Data Visualization: #delays/airport, #delays/month, airports with big %flight-with-delays etc.
 
-### **Curriculum**: 
-- **Capstone Project - Data Wrangling**: prepare and send it through (GitHub)
+### **Curriculum (planning to the rest of this week)**:
+- **Capstone Project - Data Wrangling**: to prepare and send it through (GitHub)
 - Try to finish section 5 (Data Storytelling)
 
 ## Week Nov, 2nd - 12th 
