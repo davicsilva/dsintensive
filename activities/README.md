@@ -1,5 +1,13 @@
 # Summary of weekly activities
 
+## Week Nov, 13th - 15th 
+### On going/done
+* **Capstone Project (Flight Delay)**: 
+- **Flight**: sample dataset with all flights during the year of 2017 (january to september)
+- **Local public airports***: dataset with all 589 public airports in Brazil
+- **Delay codes**: dataset with the two-letters codes used by the aircraft crew to justify some delay on the flight
+- **flighDelayPrepData**: a [**notebook**]() where I started to deal with these datasets and prepare the data
+
 ## Week Nov, 2nd - 12th 
 ### On going/done
 * **Curriculum**: Just about to start section 6/10 (I bypassed some exercices from sections 4 e 5)
