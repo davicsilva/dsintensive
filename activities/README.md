@@ -2,7 +2,7 @@
 
 ## Week Nov, 13th - 15th 
 ### On going/done
-* **Capstone Project (Flight Delay)**: 
+### **Capstone Project (Flight Delay)**: 
 - **Flight**: sample dataset with all flights during the year of 2017 (january to september)
 - **Local public airports***: dataset with all 589 public airports in Brazil
 - **Delay codes**: dataset with the two-letters codes used by the aircraft crew to justify some delay on the flight
@@ -11,9 +11,11 @@
 **Next steps**:
 1. Prepare sample datasets with historical data of weather (starting with 2017, January to September). These is one example of historical data (weather): [https://docs.google.com/spreadsheets/d/1nUu6nfqJOYB0ECULsN0r7BfWjKyWUiJeQ2nnyT0V1v8/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1nUu6nfqJOYB0ECULsN0r7BfWjKyWUiJeQ2nnyT0V1v8/edit?usp=sharing)
 2. Try to find some correlation between weather events (rain, storms etc.) and flights with delays
-3. Start making some Data Visualization: #delays/airport, #delays/month, airports with big %flight-with-delays
+3. Start making some Data Visualization: #delays/airport, #delays/month, airports with big %flight-with-delays etc.
 
-* **Curriculum**: send the 
+### **Curriculum**: 
+- **Capstone Project - Data Wrangling**: prepare and send it through (GitHub)
+- Try to finish section 5 (Data Storytelling)
 
 ## Week Nov, 2nd - 12th 
 ### On going/done
