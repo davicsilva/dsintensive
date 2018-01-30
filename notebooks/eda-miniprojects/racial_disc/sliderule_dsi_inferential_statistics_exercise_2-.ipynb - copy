@@ -401,7 +401,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 34,
+   "execution_count": 29,
    "metadata": {},
    "outputs": [
     {
@@ -411,8 +411,8 @@
       "Total résumés = 4870 Curricula Vitae (CV)\n",
       "Total callbacks = 392 calls (8.05% all CV)\n",
       "...\n",
-      "...Callback for with white-sounding name = 235 or 59.95% from résumés with callbacks;\n",
-      "...Callback for black-sounding name = 157 or 40.05% from résumés with callbacks.\n",
+      "...Callback for with white-sounding name = 235 or 59.95% from CV with callbacks;\n",
+      "...Callback for black-sounding name = 157 or 40.05% from CV with callbacks.\n",
       "...\n",
       "...Callback for white-sounding name is 33.19% greater than for black-sounding names\n"
      ]
@@ -431,8 +431,8 @@
     "print(\"Total résumés = %d Curricula Vitae (CV)\" % n)\n",
     "print(\"Total callbacks = %d calls (%.2f%% all CV)\" % (total_call,(100*(total_call/n))))\n",
     "print(\"...\")\n",
-    "print(\"...Callback for with white-sounding name = %d or %.2f%% from résumés with callbacks;\" % (call_w, (100*(call_w/total_call))))\n",
-    "print(\"...Callback for black-sounding name = %d or %.2f%% from résumés with callbacks.\" % (call_b, (100*(call_b/total_call))))\n",
+    "print(\"...Callback for with white-sounding name = %d or %.2f%% from CV with callbacks;\" % (call_w, (100*(call_w/total_call))))\n",
+    "print(\"...Callback for black-sounding name = %d or %.2f%% from CV with callbacks.\" % (call_b, (100*(call_b/total_call))))\n",
     "print(\"...\")\n",
     "print(\"...Callback for white-sounding name is %.2f%% greater than for black-sounding names\" % (100*((call_w - call_b)/call_w)))"
    ]
@@ -492,24 +492,7 @@
    "source": [
     "- We have a problem with variables that represents ***categorical values***: 'b', 'w'.<br>\n",
     "- For this type of analysis - **relationship of two categorical variables** -, their distribution in the dataset is often displayed in an **R×C table**, also referred to as a **contingency table** [1].\n",
-    "- In order to do **hypothesis testing** with categorical variables we use the **chi-square test** [1]."
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "* Table 1. White-sounding and black-souding names versus callbacks"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "|     | Callback | No callback |\n",
-    "|:----|:--------:|:-----------:|\n",
-    "|white-sounding names | X% | Y% |\n",
-    "| black-sounding names | Z% | W% |                "
+    "- In order to do **hypothesis testing** with categorical variables we the **chi-square test** [1]."
    ]
   },
   {
@@ -517,7 +500,7 @@
    "metadata": {},
    "source": [
     "#### Does CLT apply?\n",
-    "Yes."
+    "?."
    ]
   },
   {
@@ -557,7 +540,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 42,
+   "execution_count": 7,
    "metadata": {},
    "outputs": [
     {
@@ -642,7 +625,7 @@
        "126  b    b   1.0          4         9"
       ]
      },
-     "execution_count": 42,
+     "execution_count": 7,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -650,62 +633,6 @@
    "source": [
     "# Dataframe with only the résumés with callback (data_calls)\n",
     "data_calls.head()"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "#### Sumary:"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 60,
-   "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "Total résumés with callback = 392\n",
-      "---------------------------------\n",
-      "Perc.(%) white-sounding names from total = 50.00%\n",
-      "Perc.(%) black-sounding names from total = 50.00%\n",
-      "---------------------------------\n",
-      "Perc.(%) white-sounding names from callbacks = 59.95%\n",
-      "Perc.(%) black-sounding names from total = 40.05%\n",
-      "---------------------------------\n"
-     ]
-    }
-   ],
-   "source": [
-    "# Total résumés\n",
-    "n = data.shape[0]\n",
-    "\n",
-    "# Total callbacks\n",
-    "n_call = data_calls.shape[0]\n",
-    "\n",
-    "# Résumés white and black sounding names\n",
-    "total_white = data['id'].loc[(data['race'] =='w')].count()\n",
-    "total_black = data['id'].loc[(data['race'] =='b')].count()\n",
-    "\n",
-    "# Perc.(%) white and black sounding names from total\n",
-    "perc_tot_white = total_white/n\n",
-    "perc_tot_black = total_black/n\n",
-    "\n",
-    "# Perc.(%) white and black sounding names with callback\n",
-    "perc_call_white = call_w/n_call\n",
-    "perc_call_black = call_b/n_call\n",
-    "\n",
-    "print(\"Total résumés with callback = %d\" %n_call)\n",
-    "print(\"---------------------------------\")\n",
-    "print(\"Perc.(%%) white-sounding names from total = %.2f%%\" %(perc_tot_white*100))\n",
-    "print(\"Perc.(%%) black-sounding names from total = %.2f%%\" %(perc_tot_black*100))\n",
-    "print(\"---------------------------------\")\n",
-    "print(\"Perc.(%%) white-sounding names from callbacks = %.2f%%\" %(perc_call_white*100))\n",
-    "print(\"Perc.(%%) black-sounding names from total = %.2f%%\" %(perc_call_black*100))\n",
-    "print(\"---------------------------------\")"
    ]
   },
   {
@@ -735,13 +662,6 @@
     "rc = data[['race','call']]\n",
     "sns.barplot(x='race', y='call', data=rc)\n",
     "plt.show()"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "#### Investigation: is there any relation between white/black-sounding names and education versus years of experience?"
    ]
   },
   {
@@ -783,7 +703,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 56,
+   "execution_count": 8,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -798,92 +718,141 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "#### Margin of error and confidence intervals for 'w' and 'b' groups"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "* White-sounding names"
+    "#### Calculate the T-test for the means of two independent samples [2]"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 62,
+   "execution_count": 16,
    "metadata": {},
    "outputs": [
     {
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "White-sounding names:\n",
-      "---------------------\n",
-      "Mean:  0.599489795918\n",
-      "Margin of error:  0.0137622448744\n",
-      "---------------------\n",
-      "Confidence interval: \n",
-      "...From = 0.59\n",
-      "...To   = 0.61\n"
+      "T-test : t_test = -4.1147052909\n",
+      "P-value: p_value = 0.0000394294\n"
      ]
     }
    ],
    "source": [
-    "critical_value = 1.96\n",
-    "margin_error = np.sqrt((perc_call_white*(1-perc_call_white)/n))*critical_value\n",
-    "low_critical_value = perc_call_white - margin_error\n",
-    "high_critical_value = perc_call_white + margin_error\n",
-    "print(\"White-sounding names:\")\n",
-    "print(\"---------------------\")\n",
-    "print(\"Mean: \", perc_call_white)\n",
-    "print(\"Margin of error: \", margin_error)\n",
-    "print(\"---------------------\")\n",
-    "print(\"Confidence interval: \")\n",
-    "print(\"...From = %.2f\" %low_critical_value)\n",
-    "print(\"...To   = %.2f\" %high_critical_value)"
+    "# Filter rows by race ('w'or 'b') AND with callback (call=1)\n",
+    "w_callback = data[data.race=='w'].call\n",
+    "b_callback = data[data.race=='b'].call\n",
+    "t_test, p_value = stats.ttest_ind(b_callback, w_callback, equal_var = False)\n",
+    "\n",
+    "print(\"T-test : t_test = %.10f\" %t_test)\n",
+    "print(\"P-value: p_value = %.10f\" %p_value)"
    ]
   },
   {
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "* Black-sounding names"
+    "#### 3.1 - Margin of error or standard error is calculated by this formula:"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "![margin of error](images/img_marginerror_formula.png)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "* For this exercice we will assume t-test as the **critical value** (z-score in the formula above)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Assuming a 95% level of confindence, we will have the following margin of error => +/- 4.85%"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 66,
+   "execution_count": 10,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Z = 1.96"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "N = 392"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "P = 157/N"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "margin_error = (Z*((P*(1-P)/N)**0.5))*100"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
    "metadata": {},
    "outputs": [
     {
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "Black-sounding names:\n",
-      "---------------------\n",
-      "...Mean:  0.400510204082\n",
-      "...Margin of error:  0.0137622448744\n",
-      "---------------------\n",
-      "Confidence interval: \n",
-      "...From = 0.39\n",
-      "...To   = 0.41\n"
+      "Margin of error +/- 4.850771 percent\n"
      ]
     }
    ],
    "source": [
-    "critical_value = 1.96\n",
-    "margin_error = np.sqrt((perc_call_black*(1-perc_call_black)/n))*critical_value\n",
-    "low_critical_value = perc_call_black - margin_error\n",
-    "high_critical_value = perc_call_black + margin_error\n",
-    "print(\"Black-sounding names:\")\n",
-    "print(\"---------------------\")\n",
-    "print(\"...Mean: \", perc_call_black)\n",
-    "print(\"...Margin of error: \", margin_error)\n",
-    "print(\"---------------------\")\n",
-    "print(\"Confidence interval: \")\n",
-    "print(\"...From = %.2f\" %low_critical_value)\n",
-    "print(\"...To   = %.2f\" %high_critical_value)"
+    "print(\"Margin of error +/- %f percent\" % margin_error)"
    ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "**3.2 - Confidence interval**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "**3.3 - P-value**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
   },
   {
    "cell_type": "markdown",
@@ -893,10 +862,46 @@
    ]
   },
   {
+   "cell_type": "code",
+   "execution_count": 15,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "40.05102040816326"
+      ]
+     },
+     "execution_count": 15,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# % callbacks for black-sounding names / calbacks\n",
+    "(157/392)*100"
+   ]
+  },
+  {
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "Based on data, with 95% confidence, we know that 40% of the candidates that received a call has a black-sounding name. Considering a margin of error of XXX, we can not afirm that was a racial bias (pro white-sounding names). "
+    "What we have so far:"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "- **~40%** of all candidates that received a call had a black-sounding names\n",
+    "- **4.85%** margin of error (+/-)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Based on data, with 95% confidence, we know that 40% of the candidates that received a call has a black-sounding name. Considering a margin of error of +/-4.85%, we can not afirm that was a racial bias (pro white-sounding names). "
    ]
   },
   {
